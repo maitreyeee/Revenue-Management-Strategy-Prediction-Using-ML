@@ -2,6 +2,15 @@
 
 This project compares two airline RM strategies—UDP and ProBP—using simulated data. It uses forecast accuracy metrics and ML models to predict which strategy performs better under different demand conditions, and interprets key drivers using logistic regression, Random Forest and XGBoost.
 
+## Author
+
+**Maitreyee Talnikar**  
+Air Transportation Lab @ Georgia Tech  
+School of Civil and Environmental Engineering  
+Georgia Institute of Technology
+
+*Under the supervision of Dr. Laurie Garrow*
+
 ## Project Structure
 
 ```
@@ -11,8 +20,6 @@ This project compares two airline RM strategies—UDP and ProBP—using simulate
 │   ├── data_preprocessor.py
 │   ├── ml_analysis.py
 │   └── visualization.py
-├── Data/
-│   └── PvsUdata/
 ├── main.py
 ├── test_data_processing.py
 └── README.md
